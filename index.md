@@ -4,7 +4,7 @@ title: Arhiiv Privacy Policy
 
 # Arhiiv Privacy Policy
 
-*Effective 31 August 2026*
+*Effective 26 September 2026*
 
 Arhiiv is a film-photography logging app made by Joosep Laht ("we", "us"). This
 policy explains what Arhiiv does with your data. It's short because Arhiiv
@@ -105,10 +105,15 @@ it lives only on your device.
 
 ## Legal basis and regional notes
 
-Where GDPR applies, our basis for the limited processing described above is
-your consent — given through the system permission prompts for location and
-camera access, and through the analytics toggle in Settings, which you can
-withdraw at any time with immediate effect.
+Where GDPR applies, our bases for the limited processing described above are:
+
+- **Location and camera:** your consent, given through the system permission
+  prompts. You can withdraw it at any time in iOS Settings.
+- **Anonymous usage statistics (TelemetryDeck):** our legitimate interest in
+  understanding how Arhiiv is used so we can improve it (Article 6(1)(f)
+  GDPR). The statistics are anonymised and can't identify you. You can object
+  at any time by turning off "Share anonymous usage data" in Arhiiv's
+  Settings, which takes effect immediately.
 
 California residents: we don't sell or share personal information as
 defined by the CCPA/CPRA, and don't collect personal information beyond what's
@@ -125,6 +130,11 @@ there are no accounts or profiles to begin with.
 If this policy changes in a way that matters, we'll update the effective
 date above and note what changed.
 
+- **26 September 2026:** new contact address, and the basis for anonymous
+  usage statistics is now stated as legitimate interest rather than consent,
+  matching how the Settings toggle works (on by default, off whenever you
+  choose).
+
 ## Contact
 
-Questions? Email [joosepuklaht@gmail.com](mailto:joosepuklaht@gmail.com).
+Questions? Email [arhiivapp@gmail.com](mailto:arhiivapp@gmail.com).
