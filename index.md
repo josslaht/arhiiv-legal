@@ -139,11 +139,6 @@ Arhiiv isn't directed at children and doesn't knowingly collect personal
 information from anyone, of any age — there's nothing to collect, since
 there are no accounts or profiles to begin with.
 
-## Changes to this policy
-
-If this policy changes in a way that matters, we'll update the effective
-date above.
-
 ## Contact
 
 Questions? Email [arhiivapp@gmail.com](mailto:arhiivapp@gmail.com).
