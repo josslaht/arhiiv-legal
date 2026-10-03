@@ -15,10 +15,11 @@ yours is for sale.
 
 - Your camera bodies, lenses, rolls, frames, and notes are stored **only on
   your device**. We never see them, unless you choose to export and share
-  them yourself.
-- Arhiiv uses your location to tag where each frame was shot — nothing else.
-  The coordinates are sent to Apple to look up the place name; we never
-  receive them.
+  them yourself. The stored data stays on your device; Apple receives a
+  frame's coordinates only to look up its place name (see below).
+- Arhiiv uses your location to tag where each frame was shot. The
+  coordinates are sent to Apple to look up the place name; we never receive
+  them.
 - The camera is used only for the built-in light meter. No photo or video is
   ever captured or stored.
 - We use TelemetryDeck, a privacy-focused analytics service, to understand
@@ -44,11 +45,12 @@ with that frame, on your device. This is used solely to show you where a
 shot was taken. You can decline location access entirely when prompted;
 frames simply log without coordinates.
 
-To turn those coordinates into a place name, Arhiiv sends them to Apple
-(Apple Maps), which looks up the name of the place. The request goes
-directly from your device to Apple, and the coordinates are handled under
+To show where a frame was taken (for example "Berlin"), Arhiiv sends that
+frame's coordinates to Apple's Maps service for reverse geocoding when the
+frame is displayed. The request goes directly from your device to Apple,
+which handles it under
 [Apple's privacy policy](https://www.apple.com/legal/privacy/). We never
-receive them.
+receive these coordinates, and the place name is kept only on your device.
 
 If you export a roll to CSV, any coordinates you've logged are included in
 that file, because you asked for it.
@@ -97,12 +99,14 @@ to us or anyone else.
 
 - **TelemetryDeck GmbH (Germany)**, acting as our data processor, receives
   anonymized usage data, as described above.
-- **Apple** receives the coordinates of a frame when Arhiiv looks up its
-  place name, as described under Location. This goes directly from your
-  device to Apple; we never see it.
+- **Apple** (Apple Maps reverse geocoding) receives the coordinates of the
+  frames you log, for the sole purpose of returning a place name, as
+  described under Location. We don't receive these coordinates ourselves.
 
 We don't sell your data, share it with advertisers, or share it with anyone
-else.
+else. Beyond the anonymized usage data and the coordinates described above,
+we don't have anything of yours to share, since the rest lives only on your
+device.
 
 ## Your choices
 
@@ -142,10 +146,6 @@ there are no accounts or profiles to begin with.
 If this policy changes in a way that matters, we'll update the effective
 date above and note what changed.
 
-- **2 October 2026:** Arhiiv now sends a frame's coordinates to Apple (Apple
-  Maps) to look up the place name. We never receive the coordinates. Apple is
-  now listed under who we share data with, and the location prompt is stated
-  to cover this lookup.
 - **26 September 2026:** new contact address, and the basis for anonymous
   usage statistics is now stated as legitimate interest rather than consent,
   matching how the Settings toggle works (on by default, off whenever you
