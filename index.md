@@ -4,7 +4,7 @@ title: Arhiiv Privacy Policy
 
 # Arhiiv Privacy Policy
 
-*Effective 26 September 2026*
+*Effective 2 October 2026*
 
 Arhiiv is a film-photography logging app made by Joosep Laht ("we", "us"). This
 policy explains what Arhiiv does with your data. It's short because Arhiiv
@@ -16,8 +16,9 @@ yours is for sale.
 - Your camera bodies, lenses, rolls, frames, and notes are stored **only on
   your device**. We never see them, unless you choose to export and share
   them yourself.
-- Arhiiv uses your location, on-device, to tag where each frame was shot —
-  nothing else.
+- Arhiiv uses your location to tag where each frame was shot — nothing else.
+  The coordinates are sent to Apple to look up the place name; we never
+  receive them.
 - The camera is used only for the built-in light meter. No photo or video is
   ever captured or stored.
 - We use TelemetryDeck, a privacy-focused analytics service, to understand
@@ -32,7 +33,8 @@ Arhiiv has no server and no user accounts. Everything you enter — camera
 bodies, lenses, rolls, frames, notes, and film stocks — is stored locally on
 your device using Apple's on-device database (SwiftData). We don't have
 access to it, and it isn't sent anywhere unless you explicitly export or
-share it yourself.
+share it yourself — the one exception is the place-name lookup described
+under Location below.
 
 ## Location
 
@@ -42,9 +44,14 @@ with that frame, on your device. This is used solely to show you where a
 shot was taken. You can decline location access entirely when prompted;
 frames simply log without coordinates.
 
+To turn those coordinates into a place name, Arhiiv sends them to Apple
+(Apple Maps), which looks up the name of the place. The request goes
+directly from your device to Apple, and the coordinates are handled under
+[Apple's privacy policy](https://www.apple.com/legal/privacy/). We never
+receive them.
+
 If you export a roll to CSV, any coordinates you've logged are included in
-that file, because you asked for it. That's the only way location data
-leaves your device — we never receive it.
+that file, because you asked for it.
 
 ## Camera
 
@@ -88,11 +95,14 @@ to us or anyone else.
 
 ## Who we share data with
 
-We share anonymized usage data with TelemetryDeck GmbH (Germany), acting as
-our data processor, as described above. We don't sell your data, share it
-with advertisers, or share it with anyone else — and beyond that anonymized
-usage data, we don't have anything of yours to share in the first place, since
-it lives only on your device.
+- **TelemetryDeck GmbH (Germany)**, acting as our data processor, receives
+  anonymized usage data, as described above.
+- **Apple** receives the coordinates of a frame when Arhiiv looks up its
+  place name, as described under Location. This goes directly from your
+  device to Apple; we never see it.
+
+We don't sell your data, share it with advertisers, or share it with anyone
+else.
 
 ## Your choices
 
@@ -108,7 +118,9 @@ it lives only on your device.
 Where GDPR applies, our bases for the limited processing described above are:
 
 - **Location and camera:** your consent, given through the system permission
-  prompts. You can withdraw it at any time in iOS Settings.
+  prompts. The location prompt covers both recording where a frame was shot
+  and sending the coordinates to Apple to look up the place name. You can
+  withdraw your consent at any time in iOS Settings.
 - **Anonymous usage statistics (TelemetryDeck):** our legitimate interest in
   understanding how Arhiiv is used so we can improve it (Article 6(1)(f)
   GDPR). The statistics are anonymised and can't identify you. You can object
@@ -130,6 +142,10 @@ there are no accounts or profiles to begin with.
 If this policy changes in a way that matters, we'll update the effective
 date above and note what changed.
 
+- **2 October 2026:** Arhiiv now sends a frame's coordinates to Apple (Apple
+  Maps) to look up the place name. We never receive the coordinates. Apple is
+  now listed under who we share data with, and the location prompt is stated
+  to cover this lookup.
 - **26 September 2026:** new contact address, and the basis for anonymous
   usage statistics is now stated as legitimate interest rather than consent,
   matching how the Settings toggle works (on by default, off whenever you
