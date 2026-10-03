@@ -56,8 +56,9 @@ resumes by itself when the camera is free again.
 **Why does Arhiiv ask for my location?**
 To record where each frame was shot. It takes a single fix when you log a
 frame, only while the app is open, and stores it with that frame on your
-phone. It's never sent to us. If you decline, frames log without a location
-and everything else works the same.
+phone. To show a place name, Arhiiv sends the coordinates to Apple's Maps
+service to look it up. We never receive them. If you decline, frames log
+without a location and everything else works the same.
 
 ## Known limitations
 
