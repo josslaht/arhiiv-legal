@@ -15,8 +15,7 @@ yours is for sale.
 
 - Your camera bodies, lenses, rolls, frames, and notes are stored **only on
   your device**. We never see them, unless you choose to export and share
-  them yourself. The stored data stays on your device; Apple receives a
-  frame's coordinates only to look up its place name (see below).
+  them yourself.
 - Arhiiv uses your location to tag where each frame was shot. The
   coordinates are sent to Apple to look up the place name; we never receive
   them.
@@ -33,9 +32,8 @@ yours is for sale.
 Arhiiv has no server and no user accounts. Everything you enter — camera
 bodies, lenses, rolls, frames, notes, and film stocks — is stored locally on
 your device using Apple's on-device database (SwiftData). We don't have
-access to it, and it isn't sent anywhere unless you explicitly export or
-share it yourself — the one exception is the place-name lookup described
-under Location below.
+access to it. It leaves your device only when you export or share it
+yourself, apart from the place-name lookup described under Location.
 
 ## Location
 
@@ -97,8 +95,8 @@ to us or anyone else.
 
 ## Who we share data with
 
-- **TelemetryDeck GmbH (Germany)**, acting as our data processor, receives
-  anonymized usage data, as described above.
+- **TelemetryDeck GmbH (Germany)** receives anonymized usage data, acting as
+  our data processor, as described above.
 - **Apple** (Apple Maps reverse geocoding) receives the coordinates of the
   frames you log, for the sole purpose of returning a place name, as
   described under Location. We don't receive these coordinates ourselves.
@@ -144,12 +142,7 @@ there are no accounts or profiles to begin with.
 ## Changes to this policy
 
 If this policy changes in a way that matters, we'll update the effective
-date above and note what changed.
-
-- **26 September 2026:** new contact address, and the basis for anonymous
-  usage statistics is now stated as legitimate interest rather than consent,
-  matching how the Settings toggle works (on by default, off whenever you
-  choose).
+date above.
 
 ## Contact
 
