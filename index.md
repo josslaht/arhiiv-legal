@@ -4,7 +4,7 @@ title: Arhiiv Privacy Policy
 
 # Arhiiv Privacy Policy
 
-*Effective 2 October 2026*
+*Effective 4 October 2026*
 
 Arhiiv is a film-photography logging app made by Joosep Laht ("we", "us"). This
 policy explains what Arhiiv does with your data. It's short because Arhiiv
@@ -73,7 +73,9 @@ built for privacy:
   applies here.
 - The events we send are counts and categories (for example, "a roll was
   completed," rounded to a range) — never your photos, frame notes, GPS
-  coordinates, or the names you give your gear or rolls.
+  coordinates, or the names you give your gear or rolls. One event reports
+  when Arhiiv fails to save your data. It carries only the internal name of
+  the code that failed, so we can catch and fix data-loss bugs.
 - The one exception: if you add a custom film stock, its brand and name are
   sent, so we can improve Arhiiv's built-in film catalog for everyone. A
   film stock name (e.g. "Kodak Portra 400") isn't personal information.
@@ -93,10 +95,14 @@ device's local system log, purely to help us debug a problem if you report
 one to us directly. This stays on your device and isn't automatically sent
 to us or anyone else.
 
+The one exception is the failed-save report described under Analytics. It's
+only sent when "Share anonymous usage data" is on. Nothing else diagnostic
+leaves your device.
+
 ## Who we share data with
 
-- **TelemetryDeck GmbH (Germany)** receives anonymized usage data, acting as
-  our data processor, as described above.
+- **TelemetryDeck GmbH (Germany)** receives anonymized usage data, including the
+  failed-save report, acting as our data processor, as described above.
 - **Apple** (Apple Maps reverse geocoding) receives the coordinates of the
   frames you log, for the sole purpose of returning a place name, as
   described under Location. We don't receive these coordinates ourselves.
@@ -124,8 +130,9 @@ Where GDPR applies, our bases for the limited processing described above are:
   and sending the coordinates to Apple to look up the place name. You can
   withdraw your consent at any time in iOS Settings.
 - **Anonymous usage statistics (TelemetryDeck):** our legitimate interest in
-  understanding how Arhiiv is used so we can improve it (Article 6(1)(f)
-  GDPR). The statistics are anonymised and can't identify you. You can object
+  understanding how Arhiiv is used, and catching bugs that lose data, so we
+  can improve it (Article 6(1)(f) GDPR). This covers the failed-save report
+  too. The statistics are anonymised and can't identify you. You can object
   at any time by turning off "Share anonymous usage data" in Arhiiv's
   Settings, which takes effect immediately.
 

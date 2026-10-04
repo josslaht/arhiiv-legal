@@ -27,7 +27,7 @@ reinstalling the app starts from empty.
 Export your rolls as a CSV file:
 
 - **Every roll at once:** Shelf → Film → the ••• menu → Export All Rolls.
-- **One roll:** open the roll and use the export button under Actions.
+- **One roll:** open the roll, tap the ••• menu at the top right, then Export CSV.
 
 The file carries each frame's aperture, shutter, lens, time, location and
 note, plus the roll's film stock, format and camera body. Save it to Files,
