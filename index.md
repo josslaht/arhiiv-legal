@@ -52,8 +52,9 @@ You can turn sync off in Arhiiv's Settings, and your data stays on your
 device. Turning it off leaves the copy in iCloud in place, so you can turn
 sync back on later. To delete that copy, go to Settings > [your name] >
 iCloud > Storage > Arhiiv in the iOS Settings app. If you sign out of iCloud,
-iOS removes synced data from the device until you sign in again; it stays
-in your iCloud.
+your data stays on your device and syncs again when you sign back in. If a
+different Apple Account signs in, Arhiiv removes your data from the device
+before syncing, so it never reaches that account; it stays in your iCloud.
 
 ## Location
 
