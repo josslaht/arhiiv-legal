@@ -14,14 +14,31 @@ tab).
 ## Your data
 
 **Where is my data stored?**
-Only on your iPhone. Arhiiv has no account and no server, and it doesn't sync
-to iCloud yet. Your rolls, frames, gear and notes live in the app's own
-storage on the device.
+On your iPhone and, with iCloud Sync on, in your own private iCloud. Arhiiv
+has no account and no server, and we can't see your data either way. Sync is
+on by default for new installs (from Arhiiv 1.1), and you can turn it off or
+on in Settings → iCloud → Sync with iCloud. If you're updating from an
+earlier version, Arhiiv asks once whether to turn it on.
+
+**How do I move my rolls to a new iPhone?**
+Keep iCloud Sync on, and sign in to the same Apple Account on the new phone.
+When you install Arhiiv there, it finds your rolls in iCloud during setup.
 
 **What happens if I delete the app?**
-Everything in it is deleted too. An iCloud or Finder backup of the whole phone
-includes Arhiiv's data and restores it with the phone, but deleting and
-reinstalling the app starts from empty.
+With iCloud Sync on, your rolls stay in iCloud and come back when you
+reinstall. Without it, everything in the app is deleted too. An iCloud or
+Finder backup of the whole phone includes Arhiiv's data and restores it with
+the phone, but deleting and reinstalling the app starts from empty.
+
+**How do I delete the copy in iCloud?**
+In the iOS Settings app, go to [your name] → iCloud → Storage → Arhiiv.
+Turning off sync in Arhiiv doesn't delete it, so you can turn sync back on
+later.
+
+**Arhiiv says two rolls are loaded in one camera.**
+That happens when you load the same camera on two devices while one of them
+is offline. Tap Resolve: Arhiiv opens the newer roll and asks whether to mark
+the older one complete.
 
 **How do I keep a copy?**
 Export your rolls as a CSV file:
@@ -64,7 +81,6 @@ without a location and everything else works the same.
 
 These are known, and on the list:
 
-- **No iCloud backup or sync yet.** Data lives on one iPhone.
 - **Exports can't be imported back.** CSV is one-way for now.
 - **Push and pull are set through the ISO you load a roll at.** There's no
   separate field for box speed and shot-at speed yet.
@@ -73,13 +89,14 @@ These are known, and on the list:
 
 ## Coming next
 
-In roughly this order: logging screens that match the meter, iCloud backup,
-and then scans. That means bringing your lab scans into Arhiiv, matching them
+In roughly this order: logging screens that match the meter, and then
+scans. That means bringing your lab scans into Arhiiv, matching them
 to the frames you logged, and writing the exposure data into the image files
 so it travels with them.
 
 ## Privacy
 
 Arhiiv's [privacy policy](../) explains exactly what the app does with your
-data. The short version: your log stays on your phone, and the anonymous usage
-statistics can be turned off in Settings.
+data. The short version: your log stays on your phone and, if you sync, in your own
+private iCloud, which we can't see. The anonymous usage statistics can be
+turned off in Settings.
