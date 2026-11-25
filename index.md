@@ -4,7 +4,7 @@ title: Arhiiv Privacy Policy
 
 # Arhiiv Privacy Policy
 
-*Effective TODO(Joosep): the date this is published, before 1.2 is submitted*
+*Effective TODO(Joosep): the date this is published, before 1.1 is submitted*
 
 Arhiiv is a film-photography logging app made by Joosep Laht ("we", "us"). This
 policy explains what Arhiiv does with your data. It's short because Arhiiv

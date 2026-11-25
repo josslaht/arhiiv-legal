@@ -16,7 +16,7 @@ tab).
 **Where is my data stored?**
 On your iPhone and, with iCloud Sync on, in your own private iCloud. Arhiiv
 has no account and no server, and we can't see your data either way. Sync is
-on by default for new installs (from Arhiiv 1.2), and you can turn it off or
+on by default for new installs (from Arhiiv 1.1), and you can turn it off or
 on in Settings → iCloud → Sync with iCloud. If you're updating from an
 earlier version, Arhiiv asks once whether to turn it on.
 
